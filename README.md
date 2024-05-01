@@ -26,7 +26,7 @@
     <script>
         function getWeather() {
             const city = document.getElementById('city').value;
-            const apiKey = '06657bcdf75f7bc1669bb7fcb8fbb3a0'; // Get your API key from OpenWeatherMap
+            const apiKey = '2a523eaa1bccc4920e758d2087120659'; // Get your API key from OpenWeatherMap
             const apiUrl = https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey};
 
             fetch(apiUrl)
